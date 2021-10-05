@@ -100,3 +100,30 @@ pg_dump -U odoo db1 > db1.sql
 ls -a
 gpg -c db1.sql 
 exit
+ls
+rm db1.sql
+mkdir dumps
+mv db1.sql.gpg dumps/
+ls
+ls dumps/
+git add .
+git commit -am "uploading encrypted database"
+git push origin master
+exit
+ls -a
+git config --global credential.helper store
+git push origin master
+ls -a
+more .git-credentials 
+history
+pwd
+wget --post-data 'master_pwd=123456&name=db1&backup_format=zip' -O ./back_up_filename.zip http://localhost:8069/web/database/backup
+ls back_up_filename.zip 
+ls -a
+pwd
+wget --post-data 'master_pwd=ADMIN_PASSWORD&name=DB_NAME&backup_format=zip' -O ./back_up_filename.zip http://localhost:8069/web/database/backup
+wget --post-data 'master_pwd=ADMIN_PASSWORD&name=db4&backup_format=zip' -O ./back_up_filename.zip http://localhost:8069/web/database/backup
+wget --post-data 'master_pwd=ADMIN_PASSWORD&name=db1&backup_format=zip' -O ./back_up_filename.zip http://localhost:8069/web/database/backup
+wget --post-data 'master_pwd=123456&name=db1&backup_format=zip' -O ./back_up_filename.zip http://localhost:8069/web/database/backup
+history
+exit
