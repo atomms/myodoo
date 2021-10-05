@@ -47,3 +47,56 @@ gpg
 gpg -c dump.sql 
 sudo gpg -c dump.sql 
 exit
+history
+pwd
+more /etc/odoo14.conf 
+ls
+ls odoo-venv/
+ls odoo-venv/bin/
+ls odoo14
+ls odoo14/odoo
+ls odoo14/odoo/modules/
+ls -a
+pwd
+ls -a
+ls -a odoo14
+cd odoo14
+git remote -v
+rm -rf .git
+cd ..
+ls
+rm *dump*
+ls
+rm db1.sql 
+ls
+git config --global credential.helper manager-core
+ls .la
+ls -la
+git init
+git config --global credential.helper manager
+ls -a
+ls -a .gitconfig 
+more .gitconfig 
+git config ..global user.name "Ernesto"
+git config ..global user.mail "atomms@gmail.com"
+git config ..global core.editor nano
+more .gitconfig 
+git config --global user.mail "atomms@gmail.com"
+git config --global core.editor nano
+git config --global user.name "Ernesto"
+more .gitconfig 
+git add .
+git commit -am "initial commit"
+git config --global user.email "atomms@gmail.com"
+git commit -am "initial commit"
+git remote add origin https://github.com/atomms/myodoo.git
+git push origin master
+ls -a
+sudo nano .gitconfig 
+exit
+cd
+pwd
+pg_dump -U odoo db1 > db1.sql
+ls -a
+gpg -c db1.sql 
+exit
