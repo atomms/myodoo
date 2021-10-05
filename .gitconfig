@@ -1,0 +1,8 @@
+[user]
+	mail = atomms@gmail.com
+	name = Ernesto
+	email = atomms@gmail.com
+[core]
+	editor = nano
+[credential]
+	helper = store
