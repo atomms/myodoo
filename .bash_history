@@ -127,3 +127,67 @@ wget --post-data 'master_pwd=ADMIN_PASSWORD&name=db1&backup_format=zip' -O ./bac
 wget --post-data 'master_pwd=123456&name=db1&backup_format=zip' -O ./back_up_filename.zip http://localhost:8069/web/database/backup
 history
 exit
+ls -a
+cd .git/
+ls -a
+cd ..
+nano .gitignore
+more .gitignore 
+nano .gitignore
+git add .
+git commit -am "intimacy"
+git push origin master
+nano .gitignore
+ls -a
+nano .gitignore
+git add .
+git commit -am "more intimacy"
+nano .gitignore
+git add .
+git commit -am "and more intimacy"
+nano .gitignore
+git push origin master
+ls -a
+nano .gitignore
+git add .
+git commit -am "folder content ignore"
+nano .gitignore
+git push origin master
+git rm -r --cached
+git rm -r --cached .
+git commit -am "clean up"
+git push origin master
+nano .gitignore 
+git add .
+git commit -am "initial commit with ignored files"
+git push origin master
+more .gitignore 
+exit
+history
+exit
+pwd
+ls odoo14
+ls
+ls odoo14-custom-addons/
+exit
+pwd
+ls
+cd odoo14-custom-addons/
+ls
+mkdir theme_custom
+ls
+touch theme_custom/__manifest__.py
+touch theme_custom/__init__.py
+mkdir views
+mkdir static
+ls
+mv static/ theme_custom/
+mv views/ theme_custom/
+ls theme_custom/
+cd theme_custom/
+nano __manifest__.py 
+cd views/
+nano layout.xml
+cd ..
+nano __manifest__.py 
+sudo init 0
