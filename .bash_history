@@ -127,3 +127,123 @@ wget --post-data 'master_pwd=ADMIN_PASSWORD&name=db1&backup_format=zip' -O ./bac
 wget --post-data 'master_pwd=123456&name=db1&backup_format=zip' -O ./back_up_filename.zip http://localhost:8069/web/database/backup
 history
 exit
+ls -a
+cd .git/
+ls -a
+cd ..
+nano .gitignore
+more .gitignore 
+nano .gitignore
+git add .
+git commit -am "intimacy"
+git push origin master
+nano .gitignore
+ls -a
+nano .gitignore
+git add .
+git commit -am "more intimacy"
+nano .gitignore
+git add .
+git commit -am "and more intimacy"
+nano .gitignore
+git push origin master
+ls -a
+nano .gitignore
+git add .
+git commit -am "folder content ignore"
+nano .gitignore
+git push origin master
+git rm -r --cached
+git rm -r --cached .
+git commit -am "clean up"
+git push origin master
+nano .gitignore 
+git add .
+git commit -am "initial commit with ignored files"
+git push origin master
+more .gitignore 
+exit
+history
+exit
+pwd
+ls odoo14
+ls
+ls odoo14-custom-addons/
+exit
+pwd
+ls
+cd odoo14-custom-addons/
+ls
+mkdir theme_custom
+ls
+touch theme_custom/__manifest__.py
+touch theme_custom/__init__.py
+mkdir views
+mkdir static
+ls
+mv static/ theme_custom/
+mv views/ theme_custom/
+ls theme_custom/
+cd theme_custom/
+nano __manifest__.py 
+cd views/
+nano layout.xml
+cd ..
+nano __manifest__.py 
+sudo init 0
+unzip /home/dammie/Descargas/muk_dms-12.0.3.0.11.zip odoo14-custom-addons/
+mv /home/dammie/Descargas/muk_dms-12.0.3.0.11.zip odoo14-custom-addons/
+sudo mv /home/dammie/Descargas/muk_dms-12.0.3.0.11.zip odoo14-custom-addons/
+exit
+pwd
+ls -la
+pwd
+./odoo14/odoo-bin scaffold prueba ./odoo14-custom-addons/
+history
+ls -l /opt/odoo/odoo14-custom-addons/
+exit
+ls -l odoo14-custom-addons/
+ls -l odoo14-custom-addons/theme_archit
+ls -l odoo14-custom-addons/prueba/
+more odoo14-custom-addons/prueba/__init__.py 
+more odoo14-custom-addons/prueba/__manifest__.py 
+more odoo14-custom-addons/prueba/__init__.py 
+code
+cd ..
+ls -ld
+ls -ld odoo/
+ls -ld odoo/odoo14
+ls -ld odoo/odoo14/odoo
+exit
+ls -l
+exit
+ls -ld
+ls -l
+ls -l odoo14
+ls -ld odoo14
+exit
+/usr/bin/code
+/usr/share/code/bin/code 
+exit
+ls -ls
+more /etc/group
+sudo usermod -a -G odoo dammie
+exit
+ls -ld
+ls -ld odoo14
+ls -ld odoo14/addons/
+ls -ld odoo14/
+sudo chmod 777 dumps/
+exit
+history
+exit
+/usr/share/code/code 
+whoami
+exit
+/usr/share/code/code 
+exit
+ls -ls
+chmod 755 dumps/
+ls -ls
+chmod 765 dumps/
+exit
