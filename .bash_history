@@ -191,6 +191,7 @@ nano layout.xml
 cd ..
 nano __manifest__.py 
 sudo init 0
+<<<<<<< HEAD
 unzip /home/dammie/Descargas/muk_dms-12.0.3.0.11.zip odoo14-custom-addons/
 mv /home/dammie/Descargas/muk_dms-12.0.3.0.11.zip odoo14-custom-addons/
 sudo mv /home/dammie/Descargas/muk_dms-12.0.3.0.11.zip odoo14-custom-addons/
@@ -247,3 +248,5 @@ chmod 755 dumps/
 ls -ls
 chmod 765 dumps/
 exit
+=======
+>>>>>>> 7a4c33512cfbaf036d3aa881db3a83298920a6cb
