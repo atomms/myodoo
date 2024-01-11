@@ -1,13 +1,14 @@
 ![issue tab](img/logo.gif)
 # Odoo
-## Your Learning Lab Repository to explore Odoo
+## Repositorio de trabajo para las tareas de 2DAM en el Módulo SGE
 
-Welcome to **your** feature1 repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through.
+En este repositorio vamos a trabajar sobre el sistema de gestión empresarial ODOO. Por equipos, vais a ir subiendo vuestras versiones con el código modificado del sistema que estáis implementando a través del entorno de desarrollo Visual Studio Code.
 
-Oh! I haven't introduced myself...
+Las tareas concretas están especificadas en la guía didáctica y en las actividades correspondientes del aula virtual.
 
-I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey to learn and master the various topics covered in this course. I will be using Issue and Pull Request comments to communicate with you. In fact, I already added an issue for you to check out.
+En este lugar las compartimos y podemos también ver cómo crece y cómo se desarrolla vuestra implementación. 
+
+¡Ánimo con la tarea!
 
 ![issue tab](https://lab.github.com/public/images/issue_tab.png)
 
-I'll meet you over there, can't wait to get started!
